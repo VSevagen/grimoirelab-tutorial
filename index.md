@@ -7,5 +7,4 @@ permalink: /
 
 # About GrimoireLab
 
-GrimoireLab is a 100% free, open source toolset from [CHAOSS](https://chaoss.community) to do software
-development analytics, that includes:
+GrimoureLab is a [CHAOSS](https://chaoss.community) toolset for software development analytics. It includes a coordinated set of tools to retrieve data from systems used to support software development (repositories), store it in databases, enrich it by computing relevant metrics and making it easy to run analytics and visualizations on it.
