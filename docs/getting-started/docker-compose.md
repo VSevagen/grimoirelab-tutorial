@@ -46,7 +46,7 @@ $ sysctl -w vm.max_map_count=262144
 $ docker-compose up -d
 ```
 
-Once your container have successfully started, open <code>http://localhost:5601</code> on your browser
+Once your container have successfully started, open <code>http://localhost:5601</code> on your browser. After logging in with the default username (<strong>admin</strong>) and password (<strong>admin</strong>), you'll be presented with the GrimoireLab Dashboard.
 
 ### Error handling
 
