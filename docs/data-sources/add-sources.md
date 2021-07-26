@@ -60,4 +60,7 @@ $ docker-compose up -d
 ```
 
 Give it some time to gather the data and after a while your dashboard and data should be ready at `http://localhost:5601`.<br>
+
+![dashboard](../assets/dashboard.png)
+
 In the case you need to add another data source, refer to the [configuration](https://vsevagen.github.io/grimoirelab-tutorial/docs/data-sources/configurations/) section to know the exact changes to be ported to you projects.json and setup.cfg files

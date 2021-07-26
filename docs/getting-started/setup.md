@@ -55,7 +55,7 @@ $ cd grimoirelab/docker-compose
 grimoirelab/docker-compose$ docker-compose up -d
 ```
 
-If everything goes fine, your dashboard will be ready at `http://localhost:5601`.
+Your dashboard will be ready after a while at `http://localhost:5601`. The waiting time depends on the amount of data to fetch from a repo.
 
 ![dashboard](../assets/dashboard.png)
 
