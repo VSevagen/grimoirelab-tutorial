@@ -59,7 +59,7 @@ Your dashboard will be ready after a while at `http://localhost:5601`. The waiti
 
 ![dashboard](../assets/dashboard.png)
 
-### Error handling
+## Error handling
 
 If something goes wrong during the setup, run the docker-compose command without the `-d`. That will allow you to see all the logs in regards to the build.
 
@@ -67,7 +67,23 @@ If something goes wrong during the setup, run the docker-compose command without
 grimoirelab/docker-compose$ docker-compose up
 ```
 
-#### Port already in use
+### Permission Denied
+
+It may happen that running `docker-compose up -d` will result in the following error message
+
+```console
+PermissionError: [Errno 13] Permission denied
+```
+
+One simple fix could be to just run the command with `sudo`
+
+```console
+$ sudo docker-compose up -d
+```
+
+In case you want to run docker as a non-root user, then you need to add it to the docker group. You can refer to official docker documentation on how to [manage docker as a non-root user](https://docs.docker.com/engine/install/linux-postinstall/)
+
+### Port already in use
 
 It may also happen that the port, 5601, is already allocated to some other container. So running docker-compose will lead to the following error
 
