@@ -5,9 +5,11 @@ nav_order: 3
 parent: Data sources
 ---
 
-# How to add a new data source
+# How to analyze data from software development repositories
 
-In order to add data sources, you need to do some changes in both <code>projects.json</code> and <code>setup.cfg</code>
+GrimoireLab supports a variety of software development platforms. In the case you want to analyze data from one of those platforms, first check whether the platform in question is supported by GrimoireLab. You can check the [supported data sources](https://vsevagen/github.io/grimoirelab-sortinghat/docs/data-sources/sources/) section.
+
+Once you've confirmed your data source, you'll have to do some changes in both `project.json` and `setup.cfg`.
 
 For example, let's just say you want to analyze the commits of one particular project from your github repo.
 
@@ -17,9 +19,9 @@ Check out the snippet below and do the same with your `projects.json` file. **Re
 
 ```
 {
-    "VSevagen": {
+    "grimoirelab": {
         "git": [
-            "https://github.com/VSevagen/CMS-Blog"
+            "https://github.com/chaoss/grimoirelab-toolkit.git"
         ]
     }
 }
@@ -33,19 +35,21 @@ Check out the snippet below and do the same with your `setup.cfg` file.
 [git]
 raw_index = git_raw
 enriched_index = git_enriched
-latest-items = true (suggested)
+latest-items = true
 studies = [enrich_demography:git, enrich_git_branches:git, enrich_areas_of_code:git, enrich_onion:git, enrich_extra_data:git] (optional)
 
-[enrich_demography:git] (optional)
+<!-- THE LINES BELOW ARE OPTIONAL -->
 
-[enrich_git_branches:git] (optional)
-run_month_days = [1, 23] (optional)
+[enrich_demography:git]
 
-[enrich_areas_of_code:git] (optional)
+[enrich_git_branches:git]
+run_month_days = [1, 23]
+
+[enrich_areas_of_code:git]
 in_index = git_raw
 out_index = git-aoc_enriched
 
-[enrich_onion:git] (optional)
+[enrich_onion:git]
 in_index = git_enriched
 out_index = git-onion_enriched
 

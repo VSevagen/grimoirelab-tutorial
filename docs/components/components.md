@@ -7,6 +7,10 @@ permalink: /components
 
 # GrimoireLab Components
 
+The following figure summarizes the different tools used in GrimoreLab.
+
+![](../../assets/grimoirelab-all-details.png)
+
 GrimoireLab is composed of different tools, which are listed below:
 
 - **Data retrieval related components**:
@@ -32,7 +36,3 @@ GrimoireLab is composed of different tools, which are listed below:
   - [GrimoireLab Toolkit](https://github.com/chaoss/grimoirelab-toolkit): common utilities
   - [Bestiary](https://github.com/chaoss/grimoirelab-bestiary): web-based user interface to manage repositories and projects for Mordred
   - [Hatstall](https://github.com/chaoss/grimoirelab-hatstall): web-based user interface to manage SortingHat identities
-
-The following figure summarizes the different tools used in GrimoreLab.
-
-![](../../assets/grimoirelab-all-details.png)
