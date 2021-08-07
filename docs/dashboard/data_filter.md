@@ -18,11 +18,19 @@ There are two places in GrimoireLab where we can change and add filters.
 
 ### Time Picker
 
-Most dashboards are based on item creation date. So you can filter according to a time frame. Time Picker allows you to visualize data according to a particular time frame.
+Most dashboards are based on item creation date. So you can filter according to a time
+frame. Time Picker allows you to visualize data according to a particular time frame.
 
 ![time picker](../assets/time-picker.png)
 
-You can also set custome time picker if needed. Go to the section `Time picker quick ranges` in `Management` -> `Advances Settings` and add your quickRanges to the list. An example of quickRange is provided below. `from` and `to` contain date values, `display` is the title thay will be displayed in kibiter and `section` defines the column where the quickRange will be added.
+You can also set a custom time picker if needed. Go to the section `Time picker quick
+ranges` in `Management` -> `Advances Settings` and add your quickRanges to the list. An
+example of quickRange is provided below. `from` and `to` contain date values, `display` is
+the title thay will be displayed in kibiter and `section` defines the column where the
+quickRange will be added.
+
+**Note: You need to be logged in to save your custom time picker. Check the
+[private and public access]() section to understand about permissions in GrimoireLab dashboards.**
 
 ```
 {
@@ -33,9 +41,20 @@ You can also set custome time picker if needed. Go to the section `Time picker q
 }
 ```
 
+You can also set a custom time picker without actually looking into settings. 
+
+1. Click on Time Picker and choose "Absolute".
+
+![absolute time picker](../assets/absolute-time-picker.png)
+
+2. Set your time frame and press on "Go" to apply the filter.
+
 ### Normal Filters
 
-You can set a filter by clicking on **Add filter**. This filter allows you to set a particular key-value pair and display the visualizations according to that value. You can even set the operators to check for that particular value orevery other data except the one mentioned.
+You can set a filter by clicking on **Add filter**. This filter allows you to set a
+particular key-value pair and display the visualizations according to that value. You can
+even set the operators to check for that particular value orevery other data except the
+one mentioned.
 
 #### Steps
 
@@ -47,7 +66,8 @@ You can set a filter by clicking on **Add filter**. This filter allows you to se
 
   ![fields](../assets/fields.png)
 
-- Once you've set your values, save it and the visualizations should re-ajust to fit your filter.
+- Once you've set your values, save it and the visualizations should re-ajust to fit your
+  filter.
 
 ![save fields](../assets/save-fields.png)
 ![filter active](../assets/filter-active.png)

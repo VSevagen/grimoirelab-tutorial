@@ -41,3 +41,7 @@ Steps
   ![add visualization](../assets/add-visualization.png)
 
 - Once done, click on the Save button to save your dashboard.
+
+**Note - You will be presented with a `Forbidden` error when you try to save your new dashboard if you're not logged in.**
+
+You can learn more about the different accesses and the permissions associated with them in the [Private and Public Access]() section

@@ -75,3 +75,7 @@ The `size` parameter specifies that we do not need the data fetched from the ind
 The `value` field hold the number of distinct authors for the time frame provided.
 
 ![dev output](../assets/dev-output.png)
+
+You can refer to the [ElasticSearch Docs](https://www.elastic.co/guide/en/elasticsearch/reference/6.8/search-search.html) to get an overview on how to use queries.
+
+You can also refer to the [data source schemas](https://github.com/chaoss/grimoirelab-elk/tree/master/schema) to get an idea on their corresponding fields.

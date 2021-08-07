@@ -17,3 +17,5 @@ Lets take the example of [CHAOSS Community dashboard](http://chaoss.biterg.io). 
 access their grimoirelab dashboard and view the information as it is publicly available.
 However, the CHAOSS Community dashboard has a login button where only people with proper
 permission can login to perform actions such as creating, editing and removing dashboards.
+
+![login page](../assets/login-page.png)
