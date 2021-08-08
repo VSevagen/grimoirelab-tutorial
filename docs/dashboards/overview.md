@@ -1,21 +1,21 @@
 ---
 layout: default
-title: Dashboard Overview
+title: Dashboards Overview
 nav_order: 1
-parent: Dashboard
+parent: Dashboards
 has_children: false
 has_toc: false
 ---
 
-# Dashboard Overview
+# Dashboards Overview
 
-The dashboard might get overwhelming with all those visualizations and functionalities. In
+The dashboards might get overwhelming with all those visualizations and functionalities. In
 this section, everything will be explained as simply as possible.
 
 ### Sidebar
 
 The sidebar is where you can find functionalities such as visualization creation,
-dashboard creation, dev tools and settings. Usually they look like a bunch of icons but
+dashboards creation, dev tools and settings. Usually they look like a bunch of icons but
 you can expand the sidebar by clicking on the arrow button at the end of the sidebar.
 
 ![sidebar](../assets/sidebar.png)
@@ -31,7 +31,7 @@ Allow's users the current visualizations or create new ones.
 ![visualize](../assets/visualize.png)
 
 #### Dashboard
-Allow's users to view current dashboard or create new ones.
+Allow's users to view current dashboards or create new ones.
 
 ![dashboards](../assets/dashboards.png)
 
@@ -51,7 +51,7 @@ Allow's user to access their index pattern, saved objects and settings.
 
 ![management](../assets/management.png)
 
-### What is the top menu in the dashboard ?
+### What is the top menu in the dashboards ?
 
 ![all dashboards](../assets/all_dashboards.png)
 
