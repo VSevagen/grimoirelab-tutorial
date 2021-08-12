@@ -11,8 +11,10 @@ has_toc: true
 
 Creating a dashboard is pretty intuitive in GrimoireLab.
 
-The very first step is to open the visualization dashboard. Click on the visualization
-icon in the sidebar to open it. All the visualizations created will be listed there. They
+The very first step is to open the visualization dashboard. In order to do so, click on
+the visualization icon in the sidebar.
+
+All the visualizations created will be listed there. They
 serve as good examples of what GrimoireLab can accomplish.
 
 ![visualize](../assets/visualize.png)

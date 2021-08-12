@@ -21,12 +21,12 @@ permission can login to perform actions such as creating, editing and removing d
 ## How to login
 
 ##### Steps
-1. Look for the `Login` icon at the bottom of the sidebar.
+- Look for the `Login` icon at the bottom of the sidebar.
 
 ![login button](../assets/loginButton.png)
 
-2. Clicking on it will bring you to the login page.
+- Clicking on it will bring you to the login page.
 
 ![login page](../assets/login-page.png)
 
-3. Enter your credentials and press `Log in`.
+- Enter your credentials and press `Log in`.
