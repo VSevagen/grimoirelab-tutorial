@@ -21,5 +21,5 @@ serve as good examples of what GrimoireLab can accomplish.
 
 Before creating a new dashboard, we have to think of two things:
 
-- [Visualization Type]()
-- [Index choice]()
+- [Visualization Type](https://vsevagen.github.io/grimoirelab-tutorial/docs/dashboard/visualization/)
+- [Index choice](https://vsevagen.github.io/grimoirelab-tutorial/docs/dashboard/index-pattern/)
