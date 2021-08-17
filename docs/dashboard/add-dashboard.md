@@ -1,13 +1,13 @@
 ---
 layout: default
-title: Add dashboard to dashboards
+title: Add visualizations to dashboard
 nav_order: 3
-parent: Dashboard (Panel)
+parent: Creating and Editing Dashboards (Panels)
 has_children: false
 has_toc: false
 ---
 
-# How to add dashboard to dashboards ?
+# How to combine visualizations into one dashboard ?
 
 When you're creating dashboards, you'll need to add some visualizations.
 

@@ -2,7 +2,7 @@
 layout: default
 title: Public and Private Access
 nav_order: 6
-parent: Dashboards
+parent: Navigating Dashboards
 has_children: false
 has_toc: false
 ---

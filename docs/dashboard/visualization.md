@@ -3,7 +3,7 @@ layout: default
 title: Pick a visualization type
 nav_order: 1
 parent: Create a new dashboard
-grand_parent: Dashboard (Panel)
+grand_parent: Creating and Editing Dashboards (Panels)
 has_children: false
 has_toc: false
 ---
@@ -23,5 +23,5 @@ an idea of what it should look like.
 2. Once you have the above open, click on the `+` icon to open up the visualization types
    panel.
    ![visualization type](../assets/visualization-type.png)
-3. Pick the visualization of your choice.
+3. Pick the visualization of your choice based on your preference
 

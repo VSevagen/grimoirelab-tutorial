@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Edit a dashboard
-nav_order: 1
-parent: Dashboard (Panel)
+nav_order: 2
+parent: Creating and Editing Dashboards (Panels)
 has_children: false
 has_toc: false
 ---
@@ -39,7 +39,7 @@ in.](https://vsevagen.github.io/grimoirelab-tutorial/docs/dashboards/dashboard-a
 visualization](https://vsevagen.github.io/grimoirelab-tutorial/docs/dashboards/new-dashboard/)
 to understand the editing interface.
 
-## Delete dashboard from dashboards
+##  Remove visualization from dashboard
 
 For this action, you need to [logged
 in](https://vsevagen.github.io/grimoirelab-tutorial/docs/dashboards/dashboard-access/#how-to-login) as

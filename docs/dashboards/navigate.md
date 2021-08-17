@@ -2,7 +2,7 @@
 layout: default
 title: Navigate through Dashboards
 nav_order: 5
-parent: Dashboards
+parent: Navigating Dashboards
 has_children: false
 has_toc: false
 ---

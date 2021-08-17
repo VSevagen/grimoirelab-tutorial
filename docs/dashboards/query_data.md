@@ -2,7 +2,7 @@
 layout: default
 title: Query data
 nav_order: 4
-parent: Dashboards
+parent: Navigating Dashboards
 has_children: false
 has_toc: false
 ---

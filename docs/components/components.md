@@ -15,11 +15,6 @@ GrimoireLab is composed of different tools, which are listed below:
 
 - **Data retrieval related components**:
   - [Perceval](https://github.com/chaoss/grimoirelab-perceval): retrieval of data from data sources
-    - [Perceval (bundle for OPNFV)](https://github.com/chaoss/grimoirelab-perceval-opnfv)
-    - [Perceval (bundle for Mozilla)](https://github.com/chaoss/grimoirelab-perceval-mozilla)
-    - [Perceval (bundle for Puppet)](https://github.com/chaoss/grimoirelab-perceval-puppet)
-    - [Perceval (bundle for FINOS)](https://github.com/Bitergia/grimoirelab-perceval-finos)
-    - [Perceval (bundle for Weblate)](https://github.com/chaoss/grimoirelab-perceval-weblate)
   - [Graal](https://github.com/chaoss/grimoirelab-graal): source data analysis with external tools
   - [KingArthur](https://github.com/chaoss/grimoirelab-kingarthur): batch processing for massive retrieval
 - **Data enrichment related components**:

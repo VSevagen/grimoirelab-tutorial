@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Create a new dashboard
-nav_order: 2
-parent: Dashboard (Panel)
+nav_order: 1
+parent: Creating and Editing Dashboards (Panels)
 has_children: true
 has_toc: true
 ---
