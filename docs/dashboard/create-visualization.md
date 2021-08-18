@@ -1,16 +1,52 @@
 ---
 layout: default
 title: Create a visualization
-nav_order: 3
-parent: Create a new dashboard
-grand_parent: Creating and Editing Dashboards (Panels)
+nav_order: 1
+parent: Creating and Editing Dashboards (Panels)
 has_children: false
 has_toc: false
 ---
 
 # How to create a visualization ?
 
-Before we start making the visualizations, we need to understand two important terms here,
+In order to make this section easy to understand, we'll divide into 3 sub-sections:
+- Choosing a visualization type
+- Choosing an index
+- Making the visualization
+
+## Choosing a visualization type
+
+A visualization, as the name suggests, is the representation of your data in the form of a
+diagram of some sort (pie-chart, data table, heat map etc...)
+
+In order to start creating your visualization, you need to decide on a visualization type.
+Usually the choice of a visualization type is an obvious choice since the user will have
+an idea of what it should look like.
+
+### Steps
+1. Navigate to the `Visualize` dashboard. You can do so by clicking on the `Visualize`
+   icon in the sidebar. It's the second icon from the top.
+2. Once you have the above open, click on the `+` icon to open up the visualization types
+   panel.
+   ![visualization type](../assets/visualization-type.png)
+3. Pick the visualization of your choice based on your preference
+
+## How to choose an index ?
+
+Before we choose an index, we need to understand the meaning of an index.
+
+**An index** refers to a collection of JSON documents related to a particular data source
+(git, jenkins, slack, etc...). Every index will have an index-pattern that shows the
+different attributes in an index. 
+
+When creating your visualization, you will use fields from the index-pattern to generate
+your index-pattern
+
+![index](../assets/index.png)
+
+## Making the visualization
+
+We need to understand two important terms here,
 **Buckets** and **Metrics**
 
 ### Metrics

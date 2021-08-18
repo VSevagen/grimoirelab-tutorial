@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Add visualizations to dashboard
-nav_order: 3
+nav_order: 4
 parent: Creating and Editing Dashboards (Panels)
 has_children: false
 has_toc: false

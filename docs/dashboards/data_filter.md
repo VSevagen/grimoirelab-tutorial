@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Filtering data
-nav_order: 3
+nav_order: 2
 parent: Navigating Dashboards
 has_children: false
 has_toc: false

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Remove a dashboard
-nav_order: 4
+nav_order: 5
 parent: Creating and Editing Dashboards (Panels)
 has_children: false
 has_toc: false

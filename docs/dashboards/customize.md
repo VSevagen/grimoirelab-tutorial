@@ -1,12 +1,3 @@
----
-layout: default
-title: Customize your dashboards
-nav_order: 2
-parent: Navigating Dashboards
-has_children: false
-has_toc: false
----
-
 # Customize your dashboards
 
 The dashboards in GrimoireLab are fully customizable.

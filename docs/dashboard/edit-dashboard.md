@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Edit a dashboard
-nav_order: 2
+nav_order: 3
 parent: Creating and Editing Dashboards (Panels)
 has_children: false
 has_toc: false
@@ -12,7 +12,7 @@ has_toc: false
 A dashboard usually represent some visualization or table of some sort. GrimoireLab allows
 you to execute the following queries in regards to your dashboard.
 
-## Edit dashboard's title (Panel's title)
+## Edit panel's title
 
 Editing a dashboard's title is simple.
 - Steps
@@ -22,6 +22,21 @@ Editing a dashboard's title is simple.
 
 For more detailed steps, refer to the [dashboards section on editing a
 dashboad.](https://vsevagen.github.io/grimoirelab-tutorial/docs/dashboards/customize/#how-to-edit-panels-title)
+
+## How to arrange your panels
+
+GrimoireLab provides you with the ability to move and display your panels in any order you
+want.
+
+- Steps
+  1. Look for the "Edit" button and click it.
+
+     ![edit](../assets/edit_button.png)
+
+  2. Once you've done the above, edit mode will be active. You can then drag any panels
+     around and arrange it in any way you want.
+
+     ![dragging panels](../assets/drag.gif)
 
 ## Edit visualization
 
@@ -38,9 +53,29 @@ in.](https://vsevagen.github.io/grimoirelab-tutorial/docs/dashboards/dashboard-a
        and press the play button to visualize it.
     5. Once satisfied, `Save` your visualization.
 
+
 **Note**: Refer to [how to create a
 visualization](https://vsevagen.github.io/grimoirelab-tutorial/docs/dashboards/new-dashboard/)
 to understand the editing interface.
+
+## How to change the color of visualizations
+
+Some visualizations make use of graphs, charts and tables to represent data. In order to
+represent the different data, several contrasting colors are used.
+
+- Steps
+  1. Find the panel in which you want to change the color.
+  2. Every panel that makes use of colors will have the sample color and the data it
+     represents on the right side of the panel. In the case it is not visible, click on
+     the arrow key on the right side of the panel. 
+
+     ![color selection](../assets/color.png)
+
+  3. Once you've clicked on the sample color, a palette of colors will be displayed. You
+     just have to choose your preferred color. 
+
+     ![color palette](../assets/color_palette.png)
+
 
 ##  Remove visualization from dashboard
 
