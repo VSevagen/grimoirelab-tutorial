@@ -18,10 +18,12 @@ Editing a dashboard's title is simple.
 - Steps
     1. Click on `Edit` in the navigation bar of GrimoireLab.
     2. Click on the `Settings` icon of the dashboard. This will open a dropdown.
+
+    ![edit](../assets/edit.png)
+
     3. Click on `Customize panel` and change your dashboard's panel.
 
-For more detailed steps, refer to the [dashboards section on editing a
-dashboad.](https://vsevagen.github.io/grimoirelab-tutorial/docs/dashboards/customize/#how-to-edit-panels-title)
+    ![customize](../assets/customize.png)
 
 ## How to arrange your panels
 

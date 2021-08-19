@@ -8,13 +8,12 @@ has_toc: false
 
 # Dashboards
 
-The GrimoireLab dashboards is where you can evaluate the health of your community based on
-the visualizations provided. You can also create your own visualization and add it to your
-dashboards to monitor an aspect of your community. You can also have multiple dashboards
-to evaluate different aspect of your project.
+A dashboard is used to monitor, evaluate and analyze the state of one or more aspects of
+your project or community. GrimoireLab allows you to have as many dashboards as needed and
+offers an easy way to navigate through them.
 
-In this section, we are using the GrimoireLab dashboards to give a brief overview of what
-functionalities the latter offers.
+In this section, we'll be talking about how to use the dashboards and interact with the
+features available.
 
 ### GrimoireLab Dashboards
 
