@@ -1,8 +1,9 @@
 ---
 layout: default
 title: Set profile as Bot
-nav_order: 11
-parent: Contributor Information Management
+nav_order: 6
+parent: Profiles and Identities
+grand_parent: Contributor Information Management
 has_children: false
 has_toc: false
 ---

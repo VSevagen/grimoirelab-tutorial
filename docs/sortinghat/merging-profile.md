@@ -2,7 +2,8 @@
 layout: default
 title: Merging profiles
 nav_order: 4
-parent: Contributor Information Management
+parent: Profiles and Identities
+grand_parent: Contributor Information Management
 has_children: false
 has_toc: false
 ---

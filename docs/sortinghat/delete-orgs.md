@@ -1,8 +1,9 @@
 ---
 layout: default
 title: Remove Orgs
-nav_order: 8
-parent: Contributor Information Management
+nav_order: 3
+parent: Affiliations in SortingHat
+grand_parent: Contributor Information Management
 has_children: false
 has_toc: false
 ---

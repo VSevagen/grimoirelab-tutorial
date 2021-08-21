@@ -2,7 +2,8 @@
 layout: default
 title: Removing profiles
 nav_order: 3
-parent: Contributor Information Management
+parent: Profiles and Identities
+grand_parent: Contributor Information Management
 has_children: false
 has_toc: false
 ---

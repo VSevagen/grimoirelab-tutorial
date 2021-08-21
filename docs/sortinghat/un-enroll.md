@@ -1,8 +1,9 @@
 ---
 layout: default
 title: Un-enroll individual from org
-nav_order: 14
-parent: Contributor Information Management
+nav_order: 4
+parent: Affiliations in SortingHat
+grand_parent: Contributor Information Management
 has_children: false
 has_toc: false
 ---

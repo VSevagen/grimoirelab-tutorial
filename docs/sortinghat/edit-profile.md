@@ -1,8 +1,9 @@
 ---
 layout: default
 title: Editing profiles
-nav_order: 5
-parent: Contributor Information Management
+nav_order: 2
+parent: Profiles and Identities
+grand_parent: Contributor Information Management
 has_children: false
 has_toc: false
 ---

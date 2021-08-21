@@ -1,8 +1,9 @@
 ---
 layout: default
 title: Lock a profile
-nav_order: 10
-parent: Contributor Information Management
+nav_order: 6
+parent: Profiles and Identities
+grand_parent: Contributor Information Management
 has_children: false
 has_toc: false
 ---

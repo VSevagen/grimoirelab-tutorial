@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Profiles and Identities
-nav_order: 1
+nav_order: 3
 parent: Contributor Information Management
-has_children: false
+has_children: true
 has_toc: false
 ---
 
