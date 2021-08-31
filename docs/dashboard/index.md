@@ -3,10 +3,13 @@ layout: default
 title: Creating and Editing Dashboards (Panels)
 nav_order: 5
 has_children: true
-has_toc: false
+has_toc: true
 ---
 
-# What is a dashboard ?
+# Creating and Editing Dashboards
+
+Before dealing with actions such as editing and creating dashboards, we need to understand
+what is a dashboard.
 
 A dashboard is a collection of visualizations, usually centered around the dashboard
 itself to evaluate a certain aspect of the community. For example, lets take the [CHAOSS

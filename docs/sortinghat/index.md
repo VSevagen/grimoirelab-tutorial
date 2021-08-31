@@ -3,7 +3,7 @@ layout: default
 title: Contributor Information Management
 nav_order: 6
 has_children: true
-has_toc: false
+has_toc: true
 ---
 
 # Contributor Information Management using SortingHat
