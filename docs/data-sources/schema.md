@@ -2,7 +2,7 @@
 layout: default
 title: Schema
 nav_order: 4
-parent: Data sources
+parent: Connecting to data sources
 ---
 
 # Schema

@@ -2,7 +2,7 @@
 layout: default
 title: Add data sources
 nav_order: 3
-parent: Data sources
+parent: Connecting to data sources
 ---
 
 # How to analyze data from software development repositories

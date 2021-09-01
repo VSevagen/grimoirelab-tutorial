@@ -2,7 +2,7 @@
 layout: default
 title: Configurations
 nav_order: 2
-parent: Data sources
+parent: Connecting to data sources
 ---
 
 # Configurations

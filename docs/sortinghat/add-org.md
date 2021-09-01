@@ -3,7 +3,7 @@ layout: default
 title: Add Orgs
 nav_order: 1
 parent: Affiliations in SortingHat
-grand_parent: Contributor Information Management
+grand_parent: Managing/Editing Contributor Information
 has_children: false
 has_toc: false
 ---

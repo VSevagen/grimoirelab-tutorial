@@ -3,7 +3,7 @@ layout: default
 title: Set profile as Bot
 nav_order: 6
 parent: Profiles and Identities
-grand_parent: Contributor Information Management
+grand_parent: Managing/Editing Contributor Information
 has_children: false
 has_toc: false
 ---

@@ -2,7 +2,7 @@
 layout: default
 title: Affiliations in SortingHat
 nav_order: 4
-parent: Contributor Information Management
+parent: Managing/Editing Contributor Information
 has_children: true
 has_toc: true
 ---

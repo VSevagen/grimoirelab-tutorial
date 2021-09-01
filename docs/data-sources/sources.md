@@ -2,7 +2,7 @@
 layout: default
 title: Supported Data Sources
 nav_order: 1
-parent: Data sources
+parent: Connecting to data sources
 ---
 
 # Supported Data Sources

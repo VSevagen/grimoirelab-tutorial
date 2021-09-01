@@ -2,7 +2,7 @@
 layout: default
 title: SortingHat's Database
 nav_order: 2
-parent: Contributor Information Management
+parent: Managing/Editing Contributor Information
 has_children: false
 has_toc: false
 ---

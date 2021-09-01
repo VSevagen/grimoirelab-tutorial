@@ -3,7 +3,7 @@ layout: default
 title: Creating profiles
 nav_order: 1
 parent: Profiles and Identities
-grand_parent: Contributor Information Management
+grand_parent: Managing/Editing Contributor Information
 has_children: false
 has_toc: false
 ---

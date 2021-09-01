@@ -3,7 +3,7 @@ layout: default
 title: Filter through profiles
 nav_order: 8
 parent: Profiles and Identities
-grand_parent: Contributor Information Management
+grand_parent: Managing/Editing Contributor Information
 has_children: false
 has_toc: false
 ---

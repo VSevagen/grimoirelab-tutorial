@@ -2,7 +2,7 @@
 layout: default
 title: Troubleshoot
 nav_order: 15
-parent: Contributor Information Management
+parent: Managing/Editing Contributor Information
 has_children: false
 has_toc: false
 ---

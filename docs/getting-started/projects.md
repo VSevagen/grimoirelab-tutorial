@@ -18,10 +18,10 @@ The project file enables the users to list the instances of the software develop
 
 There are some filters, labels, and a special section:
 
-- Filter `--filter-no-collection=true`: This filter is used to show old enriched data within the dashboards from
+- `--filter-no-collection=true`: This filter is used to show old enriched data within the dashboards from
   repositories that don't exist anymore in upstream.
-- Filter `--filter-raw` and the section `unknown`: The data sources will only collected at the section `unknown`
-  but this allow to add the same source in different sections to enrich using the filter `--filter-raw`.
+- `--filter-raw` and the section `unknown`: The data sources will only be collected at the section `unknown`
+  but this allows user to add the same data source in different sections to enrich using the filter `--filter-raw`.
 - Label ` --labels=[example]`: The data source will have the label of `example` which can be used to create visualisations for specific sets of data
 - Section `unknown`: If the data source is only under this section it will be enriched as project `main`.
 
