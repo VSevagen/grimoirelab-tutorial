@@ -40,6 +40,9 @@ $ sudo sysctl -w vm.max_map_count=262144            #Set virtual memory
 vm.max_map_count = 262144
 ```
 
+The reason for allocating `262144` for memory is the check that ElasticSearch performs on
+boot. It ensures that the kernel allows at least 261144 memory mapped areas.
+
 ### Steps
 
 - Clone the GrimoireLab repo:
@@ -52,12 +55,12 @@ $ git clone https://github.com/chaoss/grimoirelab
 
 ```console
 $ cd grimoirelab/docker-compose
-grimoirelab/docker-compose$ docker-compose up -d
+grimoirelab/docker-compose$ sudo docker-compose up -d
 ```
 
 Your dashboard will be ready after a while at `http://localhost:5601`. The waiting time depends on the amount of data to fetch from a repo.
 
-![dashboard](../assets/dashboard.png)
+![dashboard](./assets/dashboard.png)
 
 ## Error handling
 
@@ -66,22 +69,6 @@ If something goes wrong during the setup, run the docker-compose command without
 ```console
 grimoirelab/docker-compose$ docker-compose up
 ```
-
-### Permission Denied
-
-It may happen that running `docker-compose up -d` will result in the following error message
-
-```console
-PermissionError: [Errno 13] Permission denied
-```
-
-One simple fix could be to just run the command with `sudo`
-
-```console
-$ sudo docker-compose up -d
-```
-
-In case you want to run docker as a non-root user, then you need to add it to the docker group. You can refer to official docker documentation on how to [manage docker as a non-root user](https://docs.docker.com/engine/install/linux-postinstall/)
 
 ### Port already in use
 
@@ -103,3 +90,12 @@ d3c691acaf7b   mariadb:10.0                                              "docker
 f5f406146ee9   docker.elastic.co/elasticsearch/elasticsearch-oss:6.8.6   "/usr/local/bin/dock…"   2 minutes ago   Up 2 minutes               0.0.0.0:9200->9200/tcp, :::9200->9200/tcp, 9300/tcp   docker-compose_elasticsearch_1
 $ docker rm -f c3f3f118bead          #c3f3f118bead is the container that is using port 5601.
 ```
+
+### Empty dashboard or visualization
+
+Usually this is a matter of time for GrimoireLab to fetch the data from the configured
+data source. However It may happen that some <span style="color: red">filters</span> might be activated. You can see
+whether a filter is active by looking at the filter bar as shown in the following
+screenshot or the <span style="color: #2f4bff">time window</span>.
+
+![filter](./assets/filters.png)

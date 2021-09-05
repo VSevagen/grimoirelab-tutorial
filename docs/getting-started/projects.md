@@ -44,12 +44,6 @@ There are some filters, labels, and a special section:
         "gerrit": [
             "gerrit.chaoss.org --filter-raw=data.projects:GrimoireLab"
         ],
-        "meta": {
-            "title": "GrimoireLab",
-            "type": "Dev",
-            "program" : "Bitergia",
-            "state": "Operating"
-        },
     }
     "unknown": {
         "gerrit": [
