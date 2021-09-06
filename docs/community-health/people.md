@@ -3,12 +3,10 @@ layout: default
 title: Understand personal engagement
 nav_order: 3
 parent: Understanding Community Health
-has_children: false
-has_toc: false
+has_children: true
+has_toc: true
 ---
 
 # Understand personal engagement with projects
 
-- Who are the contributors to a project
-- What is the location of contributors
-- What is the organizational diversity of contributors
+Understand organizational and personal engagement with open source projects.

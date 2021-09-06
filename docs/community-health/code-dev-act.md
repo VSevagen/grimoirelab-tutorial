@@ -3,8 +3,8 @@ layout: default
 title: Evaluate code development activities
 nav_order: 4
 parent: Understanding Community Health
-has_children: false
-has_toc: false
+has_children: true
+has_toc: true
 ---
 
 # Understand the types and frequency of activities involved in developing code
