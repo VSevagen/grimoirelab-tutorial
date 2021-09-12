@@ -17,6 +17,9 @@ you to execute the following queries in regards to your dashboard.
 Editing a dashboard's title is simple.
 - Steps
     1. Click on `Edit` in the navigation bar of GrimoireLab.
+
+   ![edit navigation](../assets/edit_nav.png)
+
     2. Click on the `Settings` icon of the dashboard. This will open a dropdown.
 
     ![edit](../assets/edit.png)
