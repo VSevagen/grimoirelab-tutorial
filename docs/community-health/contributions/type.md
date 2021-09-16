@@ -18,3 +18,27 @@ A variety of contribution types can demonstrate that a project is mature and wel
 
 ### Implementation
 How contributions are defined, quantified, tracked and made public is a challenging question. Answers may be unique to each project and the following suggestions are a starting point. As a general guideline, it is difficult to compare different contribution types with each other and they might better be recognized independently.
+
+The following list can help with identifying contribution types:
+- Writing Code
+- Reviewing Code
+- Bug Triaging
+- Quality Assurance and Testing
+- Security-Related Activities
+- Localization/L10N and Translation
+- Event Organization
+- Documentation Authorship
+- Community Building and Management
+- Teaching and Tutorial Building
+- Troubleshooting and Support
+- Creative Work and Design
+- User Interface, User Experience, and Accessibility
+- Social Media Management
+- User Support and Answering Questions
+- Writing Articles
+- Public Relations - Interviews with Technical Press
+- Speaking at Events
+- Marketing and Campaign Advocacy
+- Website Development
+- Legal Council
+- Financial Management

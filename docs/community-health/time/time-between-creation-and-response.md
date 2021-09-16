@@ -23,3 +23,11 @@ Time to first response of an activity = time first response was posted to the ac
  - Role of responder, e.g., only count maintainer responses
  - Automated responses, e.g., only count replies from real people by filtering bots and other automated replies
  - Type of Activity, e.g., issues (see metric Issue Response Time), emails, chat, change requests
+
+### Visualizations
+
+![time-to-first-response_efficiency-timing-overview](../assets/time-to-first-response_efficiency-timing-overview.png)
+
+![time-to-first-response_augur-ttc-1](../assets/time-to-first-response_augur-ttc-1.png)
+
+![time-to-first-response_augur-ttc-2](../assets/time-to-first-response_augur-ttc-2.png)

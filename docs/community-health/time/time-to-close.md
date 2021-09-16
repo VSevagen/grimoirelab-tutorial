@@ -28,3 +28,7 @@ The time to close is the total amount of time that passes between the creation a
  - First closed, final closed
  - Labels (e.g., bug vs. new feature)
  - Change Request Merge Status (e.g. Time to Merge or Time to Close without Merge)
+
+### Visualizations
+
+![time to close](../assets/time-to-close_1.png)

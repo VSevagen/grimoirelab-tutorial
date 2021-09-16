@@ -47,3 +47,7 @@ There are a number of reasons that may prompt a sudden increase or decrease in t
 - Messaging Conversations
 - Conventional and Social Media Activity
 - Conference Attendance and Submissions
+
+### Visualization
+
+![burstiness](../assets/grimoirelab_burstiness.png)
