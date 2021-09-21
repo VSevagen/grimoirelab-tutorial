@@ -15,3 +15,27 @@ This metric is an indication of how long issues have been left open in the consi
 When the issue age is increasing, identify the oldest open issues in a project to gain insight as to why they have been open for an extended period of time. Additionally, to understand how well maintainers are resolving issues and how quickly issues are resolved.
 
 ### Implementation
+For all open issues, get the date the issue was opened and calculate the number of days to current date.
+
+#### Aggregators:
+
+- Average. Average age of all open issues.
+- Median. Median age of all open issues.
+
+#### Parameters:
+
+- Period of time. Start and finish date of the period during which open issues are considered. Default: forever (i.e., the entire observable period of the project's issue activity).
+
+#### Filters
+- Module or working group
+- Tags/labels on issue
+
+#### Visualizations
+
+1. Summary data for open issues<br />
+
+    ![Summary data for open issues](../assets/issue-age_open-issue-data.png)
+
+2. Count of open issues per day<br />
+
+    ![Count of open issues per day](../assets/issue-age_open-issue-count-timeseries.png)
