@@ -38,3 +38,25 @@ participation in a project. Questions that can be addressed through this metric 
   again) in cases where branches are infrequently deleted in a repository?
 
 ### Implementation
+
+The stated advice regarding management of the branch lifecycle for a project may be
+visible in a CONTRIBUTING.md document, and these documents can be compared across
+repositories using linguistic analysis, and contrasted with data derived from actual
+project practices to draw insights within, and across repositories. In most cases,
+however, the data we focus on in this metric is quantitative in nature.
+
+#### Aggregators:
+
+- Count of branches created.
+- Count of branches deleted.
+- Count of branches merged.
+- Count of branches abandoned (had unique commits, but never got merged before it was
+  deleted)
+- Total count of branches.
+- Average age of open branches.
+- Ratio at which branches are created vs. deleted.
+
+#### Parameters:
+
+- Period of time. Start and finish date of the period. Default: forever.
+- Period during which change requests are considered.

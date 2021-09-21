@@ -30,3 +30,36 @@ touched in all changes gives a complementary idea of how large the changes are, 
 general, how large is the volume of coding activity.
 
 ### Implementation
+
+#### Aggregators:
+- Count. Total number of lines changes (touched) during the period.
+
+
+#### Parameters:
+- Period of time: Start and finish date of the period. Default: forever.
+    Period during which changes are considered.
+- Criteria for source code; Algorithm Default: all files are source code. If we are
+    focused on source code, we need a criterion for deciding whether a file is a part of
+    the source code or not.
+- Type of source code change:
+    - Lines added
+    - Lines removed
+    - Whitespace
+
+#### Filters
+- By actors (author, committer). Requires actor merging (merging ids corresponding to the
+  same author).
+
+- By groups of actors (employer, gender...). Requires actor grouping, and likely, actor merging.
+
+- By tags (used in the message of the commits). Requires a structure for the message of
+  commits. This tag can be used in an open-source project to communicate to every
+  contributors if the commit is, for example, a fix for a bug or an improvement of a
+  feature.
+
+#### Visualizations
+- Count per month over time
+- Count per group over time
+
+These could be represented as bar charts, with time running in the X axis. Each bar would
+represent a code changes during a certain period (eg, a month).

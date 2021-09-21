@@ -23,3 +23,29 @@ have an idea of the overall coding activity in that project. Of course, this met
 the only one that should be used to track volume of coding activity.
 
 ### Implementation
+
+#### Aggregators:
+- Count. Total number of changes during the period.
+
+#### Parameters:
+- Period of time. Start and finish date of the period. Default: forever. Period during
+  which changes are considered.
+- Criteria for source code. Algorithm. Default: all files are source code. If focused on
+  source code, criteria for deciding whether a file is a part of the source code or not.
+
+#### Filters
+- By actors (author, committer). Requires actor merging (merging ids corresponding to the
+  same author).
+- By groups of actors (employer, gender...). Requires actor grouping, and likely, actor
+  merging.
+- By tags (used in the message of the commits). Requires a structure for the message of
+  commits. This tag can be used in an open-source project to communicate to every
+  contributors if the commit is, for example, a fix for a bug or an improvement of a
+  feature.
+
+#### Visualizations
+- Count per month over time
+- Count per group over time
+
+These could be represented as bar charts, with time running in the X axis. Each bar would
+represent a code changes during a certain period (eg, a month).
