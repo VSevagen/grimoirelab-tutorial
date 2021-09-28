@@ -24,7 +24,7 @@ There are some filters, labels, and a special section and authentication:
   but this allows user to add the same data source in different sections to enrich using the filter `--filter-raw`.
 - Label ` --labels=[example]`: The data source will have the label of `example` which can be used to create visualisations for specific sets of data
 - Section `unknown`: If the data source is only under this section it will be enriched as project `main`.
-- Authentication against **Git private repositories**: To access to a private repository will be necessary to set the `username` and `password/api-token`.
+- Authentication against **private Git repositories**: To access to a private repository will be necessary to set the `username` and `password/api-token`.
 
 ```
 {
