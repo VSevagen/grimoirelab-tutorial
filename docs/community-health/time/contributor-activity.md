@@ -13,26 +13,33 @@ Question: What are the dates and timestamps of when a contributor activities occ
 
 Individuals engage in activities in open source projects at various times of the day. This metric is aimed at determining the dates and times of when individual activities were completed. The data can be used to probabilistically estimate where on earth contributions come from in cases where the time zone is not UTC.
 
-### Objectives
-- Improve transparency for employers about when organizational employees are engaging with open source projects
-- Improve transparency for open source project and community managers as to when activity is occurring
-
-### Implementation
-#### Filters
- - Individual by Organization
- - Aggregation of time by UTC time
- - Can show what times across the globe contributions are made; when the project is most active.
- - Aggregation of time by local time
-    - Can show what times of day in their local times they contribute. Conclusions about the If contributions are more during working hours, or if contributions are more during evening hours.
- - Repository ID
- - Segment of a community, (e.g., GrimoireLab has more EU time zones activity and Augur more US time zones activity)
-
 ### Visualizations
 
-![activity dates and times 1](../assets/activity-dates-and-times_1.png)
+#### Number of contributions (times and days)
 
-![activity dates and times 2](../assets/activity-dates-and-times_2.png)
+##### Steps
+- For `metrics` set the aggregation to `Unique Count` and field to `hash`.
 
-![activity dates and times 3](../assets/activity-dates-and-times_3.png)
+   ![metrics](./assets/metrics.png)
 
-![activity dates and times 4](../assets/activity-dates-and-times_4.png)
+- For `buckets` set the aggregation to `Terms` and field to
+  `utc_author_date_weekday`. Set the order to `Ascending` and size to `7` for 7
+  days a week.
+
+   ![bucket-Xaxis](./assets/bucket-Xaxis.png)
+
+- Right now, if you press the play button, you should be seeing the following
+   visualization. Note: The values might not be similar but that's ok.
+
+   ![contrib-per-day](./assets/contrib-per-day.png)
+
+- Now we need to filter according to time as well. In `Buckets` itself, set up
+   the Y-axis with a sub-aggregation of `Terms` and field of
+   `utc_author_date_hour`. Set the order to ascending and the size to `24` for
+   24 hours. 
+   
+   ![bucket-Yaxis](./assets/bucket-Yaxis.png)
+
+- Press the play button and you should see something similar.
+
+   ![contrib-per-day-time](./assets/contrib-per-day-time.png)
