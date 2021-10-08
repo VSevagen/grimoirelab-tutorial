@@ -9,49 +9,83 @@ grand_parent: Understanding Community Health
 # Contributors
 Question: Who are the contributors to a project?
 
-A contributor is defined as anyone who contributes to the project in any way. This metric ensures that all types of contributions are fully recognized in the project.
+A contributor is defined as anyone who contributes to the project in any way.
+This metric ensures that all types of contributions are fully recognized in the
+project.
 
 ### Objectives
-Open source projects are comprised of a number of different contributors. Recognizing all contributors to a project is important in knowing who is helping with such activities as code development, event planning, and marketing efforts.
+Open source projects are comprised of a number of different contributors.
+Recognizing all contributors to a project is important in knowing who is helping
+with such activities as code development, event planning, and marketing efforts.
 
-### Implementation
-Collect author names from collaboration tools a project uses.
+### Visualizations
 
-#### Aggregators:
-- Count. Total number of contributors during a given time period.
+### List of contributor names (often with information about their level of engagement)
 
-#### Parameters:
-- Period of time. Start and finish date of the period. Default: forever. Period during which contributions are counted.
+#### Steps
 
-#### Filters
-By location of engagement. For example:
+1. For `Metrics`, set the aggregation to `Count` and `Buckets` to `Terms`. Set
+   the field in buckets to `author_name`. Set the order to either descending or
+   ascending depending on your preference.
 
-- Commit authors
-- Issue authors
-- Review participants, e.g., in pull requests
-- Mailing list authors
-- Event participants
-- IRC authors
-- Blog authors
-- By release cycle
-- Timeframe of activity in the project, e.g, find new contributors
-- Programming languages of the project
-- Role or function in project
+   ![metrics contributor](../assets/metrics_contributors.png)
 
-#### Visualizations
+   ![buckets contributor](../assets/buckets_contributors.png)
 
-1. List of contributor names (often with information about their level of engagement)
+   ![contributors](../assets/contributors.png)
 
-![Contributor names and info](../assets/contributors_top-contributor-info.png)
+2. You can also some more metrics to see the sum of lines removes, sum of lines
+   added or the number of projects contributor is involved into.
 
-2. Summary number of contributors
+3. For the number of projects involved, click on `Add metrics`. Set the
+   aggregation to `Unique Count` and field to `project`. 
+   
+   ![metrics project count](../assets/metrics_project_count.png)
 
-![Summary number of contributors](../assets/contributors_summary-contributor-number.png)
+   ![contributor project](../assets/contributor_projects.png)
+
+4. For the sum of lines added, click on `Add metrics`. Set the aggregation to
+   `Sum` and field to `lines_added`.
+
+   ![metrics line added](../assets/metrics_line_added.png)
+
+   ![contributor line added](../assets/contributor_lines_added.png)
+
+5. For sum of lines removes, click on `Add metrics`. Set the aggregation to
+   `Sum` and field to `lines_removed`.
+
+   ![metrics lines removed](../assets/metrics_lines_removed.png)
+
+   ![contributor lines removed](../assets/contributor_lines_removed.png)
+
+### Summary number of contributors
+
+#### Steps
+
+1. For `metrics`, set the aggregation to `Unique Count` and the field to `author_uuid`. 
+
+    ![metrics](../assets/metrics_contributor_number.png)
+
+2. This metric requires no changes in the `Buckets`.
+
+    ![Summary number of contributors](../assets/contributor_number.png)
 
 3. Change in the number of active contributors over time
 
 ![Contributor growth](../assets/contributors_growth.png)
 
-4. New contributors (sort list of contributors by date of first contribution)
+#### New contributors
 
-![New contributors](../assets/contributors_first-commit-date.png)
+#### Steps
+
+1. For `metrics`, set the aggregation to `Min` and field to `grimoire_creation_date`.
+
+    ![metrics newcomers](../assets/metrics_newcomers.png)
+
+2. For `Buckets`, click on `Split rows` and set the aggregation to `Terms` and
+   field to `author_name`. Set the order to either descending or ascending based
+   on your preference.
+
+   ![buckets newcomers](../assets/buckets_newcomers.png)
+
+![New contributors](../assets/newcomers.png)
