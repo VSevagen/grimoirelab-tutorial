@@ -68,11 +68,7 @@ with such activities as code development, event planning, and marketing efforts.
 
 2. This metric requires no changes in the `Buckets`.
 
-    ![Summary number of contributors](../assets/contributor_number.png)
-
-3. Change in the number of active contributors over time
-
-![Contributor growth](../assets/contributors_growth.png)
+    ![Summary number of contributors](../assets/contributor_number.png)P
 
 #### New contributors
 
